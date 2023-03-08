@@ -1095,15 +1095,15 @@ jobs:
           CONFIG_PACKAGE_lua=y
           CONFIG_LUA_ECO_WOLFSSL=y
           CONFIG_PACKAGE_luci-lib-fs=y
-          CONFIG_PACKAGE_node=y
+          # CONFIG_PACKAGE_node=y
 
           #
           # Configuration
           #
           # CONFIG_NODEJS_10 is not set
-          CONFIG_NODEJS_12=y
+          # CONFIG_NODEJS_12=y
           # CONFIG_NODEJS_ICU_NONE is not set
-          CONFIG_NODEJS_ICU_SMALL=y
+          # CONFIG_NODEJS_ICU_SMALL=y
           CONFIG_PACKAGE_libattr=y
           CONFIG_PACKAGE_libip4tc=y
           CONFIG_PACKAGE_libip6tc=y
@@ -1772,7 +1772,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-uhttpd is not set
           CONFIG_PACKAGE_luci-app-unblockmusic=y
           # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
-          CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS=y
+          # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_NodeJS=y
           # CONFIG_PACKAGE_luci-app-unbound is not set
           CONFIG_PACKAGE_luci-app-upnp=y
           CONFIG_PACKAGE_luci-app-usb-printer=y
