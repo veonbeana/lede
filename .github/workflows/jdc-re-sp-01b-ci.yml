@@ -84,6 +84,7 @@ jobs:
 
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
+          make clean
 
       - name: Make download
         run: |
